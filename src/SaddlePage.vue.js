@@ -1,7 +1,7 @@
 import Layout from './Layout.vue';
 export default (await import('vue')).defineComponent({
     components: {
-        Layout,
+        Layout
     },
     data() {
         return {
@@ -19,108 +19,108 @@ export default (await import('vue')).defineComponent({
             isBlackWhiteMode: false, // B/W mode switch
             isInvertedMode: false, // Inverted mode switch
             saddleImages: [
-                "Allosaurus_Saddle.png.jpg",
-                "Amargasaurus_Saddle.png.jpg",
-                "Andrewsarchus_Saddle.png.jpg",
-                "Ankylo_Saddle.png.jpg",
-                "Araneo_Saddle.png.jpg",
-                "Argentavis_Saddle.png.jpg",
-                "Arthropluera_Saddle.png.jpg",
-                "Astrocetus_Tek_Saddle.png.jpg",
-                "Astrodelphis_Starwing_Saddle.png.jpg",
-                "Baryonyx_Saddle.png.jpg",
-                "Basilisk_Saddle.png.jpg",
-                "Basilosaurus_Saddle.png.jpg",
-                "Beelzebufo_Saddle.png.jpg",
-                "Bronto_Saddle.png.jpg",
-                "Carbonemys_Saddle.png.jpg",
-                "Carcharo_Saddle.png.jpg",
-                "Carno_Saddle.png.jpg",
-                "Castoroides_Saddle.png.jpg",
-                "Ceratosaurus_Saddle.png.jpg",
-                "Chalicotherium_Saddle.png.jpg",
-                "Daeodon_Saddle.png.jpg",
-                "Deinonychus_Saddle.png.jpg",
-                "Desmodus_Saddle.png.jpg",
-                "Diplodocus_Saddle.png.jpg",
-                "Dire_Bear_Saddle.png.jpg",
-                "Doedicurus_Saddle.png.jpg",
-                "Dunkleosteus_Saddle.png.jpg",
-                "Equus_Saddle.png.jpg",
-                "Fasolasuchus_Saddle.png.jpg",
-                "Gacha_Saddle.png.jpg",
-                "Gallimimus_Saddle.png.jpg",
-                "Gasbags_Saddle.png.jpg",
-                "Giganotosaurus_Saddle.png.jpg",
-                "Gigantoraptor_Saddle.png.jpg",
-                "Ichthyosaurus_Saddle.png.jpg",
-                "Iguanodon_Saddle.png.jpg",
-                "Kaprosuchus_Saddle.png.jpg",
-                "Karkinos_Saddle.png.jpg",
-                "Lymantria_Saddle.png.jpg",
-                "Maewing_Saddle.png.jpg",
-                "Magmasaur_Saddle.png.jpg",
-                "Mammoth_Saddle.png.jpg",
-                "Managarmr_Saddle.png.jpg",
-                "Manta_Saddle.png.jpg",
-                "Mantis_Saddle.png.jpg",
-                "Megachelon_Platform_Saddle.png.jpg",
-                "Megalania_Saddle.png.jpg",
-                "Megaloceros_Saddle.png.jpg",
-                "Megalodon_Saddle.png.jpg",
-                "Megalodon_Tek_Saddle.png.jpg",
-                "Megalosaurus_Saddle.png.jpg",
-                "Megatherium_Saddle.png.jpg",
-                "Morellatops_Saddle.png.jpg",
-                "Mosasaur_Saddle.png.jpg",
-                "Mosasaur_Tek_Saddle.png.jpg",
-                "Pachyrhinosaurus_Saddle.png.jpg",
-                "Pachy_Saddle.png.jpg",
-                "Paracer_Platform_Saddle.png.jpg",
-                "Paracer_Saddle.png.jpg",
-                "Parasaur_Saddle.png.jpg",
-                "Pelagornis_Saddle.png.jpg",
-                "Phiomia_Saddle.png.jpg",
-                "Plesiosaur_Saddle.png.jpg",
-                "Procoptodon_Saddle.png.jpg",
-                "Pteranodon_Saddle.png.jpg",
-                "Pulmonoscorpius_Saddle.png.jpg",
-                "Quetz_Saddle.png.jpg",
-                "Raptor_Saddle.png.jpg",
-                "Ravager_Saddle.png.jpg",
-                "Rex_Saddle.png.jpg",
-                "Rex_Tek_Saddle.png.jpg",
-                "Rhyniognatha_Saddle.png.jpg",
-                "Rock_Drake_Saddle.png.jpg",
-                "Rock_Drake_Tek_Saddle.png.jpg",
-                "Rock_Golem_Saddle.png.jpg",
-                "Roll_Rat_Saddle.png.jpg",
-                "Sabertooth_Saddle.png.jpg",
-                "Sarco_Saddle.png.jpg",
-                "Snow_Owl_Saddle.png.jpg",
-                "Spino_Saddle.png.jpg",
-                "Stego_Saddle.png.jpg",
-                "Tapejara_Saddle.png.jpg",
-                "Tapejara_Tek_Saddle.png.jpg",
-                "Terror_Bird_Saddle.png.jpg",
-                "Therizinosaurus_Saddle.png.jpg",
-                "Thorny_Dragon_Saddle.png.jpg",
-                "Thylacoleo_Saddle.png.jpg",
-                "Titanosaur_Platform_Saddle.png.jpg",
-                "Trike_Saddle.png.jpg",
-                "Tropeognathus_Saddle.png.jpg",
-                "Tusoteuthis_Saddle.png.jpg",
-                "Velonasaur_Saddle.png.jpg",
-                "Woolly_Rhino_Saddle.png.jpg",
-                "Xiphactinus_Saddle.png.jpg",
-                "Yutyrannus_Saddle.png.jpg"
-            ],
+                'Allosaurus_Saddle.png.jpg',
+                'Amargasaurus_Saddle.png.jpg',
+                'Andrewsarchus_Saddle.png.jpg',
+                'Ankylo_Saddle.png.jpg',
+                'Araneo_Saddle.png.jpg',
+                'Argentavis_Saddle.png.jpg',
+                'Arthropluera_Saddle.png.jpg',
+                'Astrocetus_Tek_Saddle.png.jpg',
+                'Astrodelphis_Starwing_Saddle.png.jpg',
+                'Baryonyx_Saddle.png.jpg',
+                'Basilisk_Saddle.png.jpg',
+                'Basilosaurus_Saddle.png.jpg',
+                'Beelzebufo_Saddle.png.jpg',
+                'Bronto_Saddle.png.jpg',
+                'Carbonemys_Saddle.png.jpg',
+                'Carcharo_Saddle.png.jpg',
+                'Carno_Saddle.png.jpg',
+                'Castoroides_Saddle.png.jpg',
+                'Ceratosaurus_Saddle.png.jpg',
+                'Chalicotherium_Saddle.png.jpg',
+                'Daeodon_Saddle.png.jpg',
+                'Deinonychus_Saddle.png.jpg',
+                'Desmodus_Saddle.png.jpg',
+                'Diplodocus_Saddle.png.jpg',
+                'Dire_Bear_Saddle.png.jpg',
+                'Doedicurus_Saddle.png.jpg',
+                'Dunkleosteus_Saddle.png.jpg',
+                'Equus_Saddle.png.jpg',
+                'Fasolasuchus_Saddle.png.jpg',
+                'Gacha_Saddle.png.jpg',
+                'Gallimimus_Saddle.png.jpg',
+                'Gasbags_Saddle.png.jpg',
+                'Giganotosaurus_Saddle.png.jpg',
+                'Gigantoraptor_Saddle.png.jpg',
+                'Ichthyosaurus_Saddle.png.jpg',
+                'Iguanodon_Saddle.png.jpg',
+                'Kaprosuchus_Saddle.png.jpg',
+                'Karkinos_Saddle.png.jpg',
+                'Lymantria_Saddle.png.jpg',
+                'Maewing_Saddle.png.jpg',
+                'Magmasaur_Saddle.png.jpg',
+                'Mammoth_Saddle.png.jpg',
+                'Managarmr_Saddle.png.jpg',
+                'Manta_Saddle.png.jpg',
+                'Mantis_Saddle.png.jpg',
+                'Megachelon_Platform_Saddle.png.jpg',
+                'Megalania_Saddle.png.jpg',
+                'Megaloceros_Saddle.png.jpg',
+                'Megalodon_Saddle.png.jpg',
+                'Megalodon_Tek_Saddle.png.jpg',
+                'Megalosaurus_Saddle.png.jpg',
+                'Megatherium_Saddle.png.jpg',
+                'Morellatops_Saddle.png.jpg',
+                'Mosasaur_Saddle.png.jpg',
+                'Mosasaur_Tek_Saddle.png.jpg',
+                'Pachyrhinosaurus_Saddle.png.jpg',
+                'Pachy_Saddle.png.jpg',
+                'Paracer_Platform_Saddle.png.jpg',
+                'Paracer_Saddle.png.jpg',
+                'Parasaur_Saddle.png.jpg',
+                'Pelagornis_Saddle.png.jpg',
+                'Phiomia_Saddle.png.jpg',
+                'Plesiosaur_Saddle.png.jpg',
+                'Procoptodon_Saddle.png.jpg',
+                'Pteranodon_Saddle.png.jpg',
+                'Pulmonoscorpius_Saddle.png.jpg',
+                'Quetz_Saddle.png.jpg',
+                'Raptor_Saddle.png.jpg',
+                'Ravager_Saddle.png.jpg',
+                'Rex_Saddle.png.jpg',
+                'Rex_Tek_Saddle.png.jpg',
+                'Rhyniognatha_Saddle.png.jpg',
+                'Rock_Drake_Saddle.png.jpg',
+                'Rock_Drake_Tek_Saddle.png.jpg',
+                'Rock_Golem_Saddle.png.jpg',
+                'Roll_Rat_Saddle.png.jpg',
+                'Sabertooth_Saddle.png.jpg',
+                'Sarco_Saddle.png.jpg',
+                'Snow_Owl_Saddle.png.jpg',
+                'Spino_Saddle.png.jpg',
+                'Stego_Saddle.png.jpg',
+                'Tapejara_Saddle.png.jpg',
+                'Tapejara_Tek_Saddle.png.jpg',
+                'Terror_Bird_Saddle.png.jpg',
+                'Therizinosaurus_Saddle.png.jpg',
+                'Thorny_Dragon_Saddle.png.jpg',
+                'Thylacoleo_Saddle.png.jpg',
+                'Titanosaur_Platform_Saddle.png.jpg',
+                'Trike_Saddle.png.jpg',
+                'Tropeognathus_Saddle.png.jpg',
+                'Tusoteuthis_Saddle.png.jpg',
+                'Velonasaur_Saddle.png.jpg',
+                'Woolly_Rhino_Saddle.png.jpg',
+                'Xiphactinus_Saddle.png.jpg',
+                'Yutyrannus_Saddle.png.jpg'
+            ]
         };
     },
     computed: {
         saddleNames() {
             // Remove file extensions from image names and return them as possible answers
-            return this.saddleImages.map(image => image.replace('.png.jpg', '').replace(/_/g, ' '));
+            return this.saddleImages.map((image) => image.replace('.png.jpg', '').replace(/_/g, ' '));
         }
     },
     methods: {
@@ -131,8 +131,8 @@ export default (await import('vue')).defineComponent({
             }
             else {
                 this.filteredSaddles = this.saddleNames
-                    .filter(saddle => saddle.toLowerCase().startsWith(input))
-                    .filter(saddle => !this.guessedSaddles.includes(saddle));
+                    .filter((saddle) => saddle.toLowerCase().startsWith(input))
+                    .filter((saddle) => !this.guessedSaddles.includes(saddle));
             }
         },
         saveProgress() {
@@ -141,46 +141,12 @@ export default (await import('vue')).defineComponent({
                 date: today,
                 previousGuesses: this.previousGuesses,
                 isGuessedCorrectly: this.isGuessedCorrectly,
-                attempts: this.attempts,
+                attempts: this.attempts
             };
-            localStorage.setItem('gameProgress', JSON.stringify(progress));
+            localStorage.setItem('saddleGameProgress', JSON.stringify(progress));
         },
         loadProgress() {
-            const savedProgress = localStorage.getItem('gameProgress');
-            const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
-            if (savedProgress) {
-                const progress = JSON.parse(savedProgress);
-                // Load saved progress if it's for today
-                if (progress.date === today) {
-                    this.previousGuesses = progress.previousGuesses || [];
-                    this.isGuessedCorrectly = progress.isGuessedCorrectly || false;
-                    this.attempts = progress.attempts || 0;
-                    this.hasGuessedToday = this.isGuessedCorrectly;
-                }
-                else {
-                    // Reset progress for a new day
-                    this.resetProgress();
-                }
-            }
-        },
-        resetProgress() {
-            this.previousGuesses = [];
-            this.isGuessedCorrectly = false;
-            this.hasGuessedToday = false;
-            this.attempts = 0;
-        },
-        saveProgress() {
-            const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
-            const progress = {
-                date: today,
-                previousGuesses: this.previousGuesses,
-                isGuessedCorrectly: this.isGuessedCorrectly,
-                attempts: this.attempts,
-            };
-            localStorage.setItem('dinoGameProgress', JSON.stringify(progress));
-        },
-        loadProgress() {
-            const savedProgress = localStorage.getItem('dinoGameProgress');
+            const savedProgress = localStorage.getItem('saddleGameProgress');
             const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
             if (savedProgress) {
                 const progress = JSON.parse(savedProgress);
@@ -214,13 +180,15 @@ export default (await import('vue')).defineComponent({
                 return;
             }
             // Check if the user input is a valid saddle name (either from filtered suggestions or typed manually)
-            const isValidSaddle = this.filteredSaddles.length > 0 || this.saddleNames.some(saddle => saddle.toLowerCase() === cleanedInput);
+            const isValidSaddle = this.filteredSaddles.length > 0 ||
+                this.saddleNames.some((saddle) => saddle.toLowerCase() === cleanedInput);
             // Prevent submitting if the input is not a valid saddle name
             if (!isValidSaddle) {
                 return;
             }
             // Auto-complete the guess with the first suggestion if available
-            if (this.filteredSaddles.length > 0 && cleanedInput !== this.filteredSaddles[0].toLowerCase()) {
+            if (this.filteredSaddles.length > 0 &&
+                cleanedInput !== this.filteredSaddles[0].toLowerCase()) {
                 this.userInput = this.filteredSaddles[0];
             }
             // Prevent further guesses after a correct guess
@@ -249,6 +217,7 @@ export default (await import('vue')).defineComponent({
                 this.userInput = ''; // Clear input after submission
                 this.filteredSaddles = []; // Clear suggestions
             }
+            // Save progress after every guess
             this.saveProgress();
         },
         zoomOut() {
@@ -272,12 +241,11 @@ export default (await import('vue')).defineComponent({
         this.loadProgress(); // Load progress for the current day
     }
 });
-;
 function __VLS_template() {
     const __VLS_ctx = {};
     const __VLS_localComponents = {
         ...{
-            Layout,
+            Layout
         },
         ...{},
         ...__VLS_ctx,

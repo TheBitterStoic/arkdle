@@ -1,7 +1,7 @@
 import Layout from './Layout.vue';
 export default (await import('vue')).defineComponent({
     components: {
-        Layout,
+        Layout
     },
     data() {
         return {
@@ -19,186 +19,186 @@ export default (await import('vue')).defineComponent({
             isBlackWhiteMode: false, // B/W mode switch
             isInvertedMode: false, // Inverted mode switch
             dinoImages: [
-                "Achatina.png",
-                "Allosaurus.png",
-                "Amargasaurus.png",
-                "Ammonite.png",
-                "Andrewsarchus.png",
-                "Angler.png",
-                "Ankylosaurus.png",
-                "Araneo.png",
-                "Archaeopteryx.png",
-                "Argentavis.png",
-                "Arthropluera.png",
-                "Astrocetus.png",
-                "Astrodelphis.png",
-                "Attack Drone.png",
-                "Baryonyx.png",
-                "Basilisk.png",
-                "Basilosaurus.png",
-                "Beelzebufo.png",
-                "Bloodstalker.png",
-                "Brontosaurus.png",
-                "Bulbdog.png",
-                "Carbonemys.png",
-                "Carcharodontosaurus.png",
-                "Carnotaurus.png",
-                "Castoroides.png",
-                "Chalicotherium.png",
-                "Cnidaria.png",
-                "Coelacanth.png",
-                "Compy.png",
-                "Crystal Wyvern.png",
-                "Daeodon.png",
-                "Deathworm.png",
-                "Defense Unit.png",
-                "Deinonychus.png",
-                "Desert Titan.png",
-                "Desmodus.png",
-                "Dilophosaur.png",
-                "Dimetrodon.png",
-                "Dimorphodon.png",
-                "Dinopithecus.png",
-                "Diplocaulus.png",
-                "Diplodocus.png",
-                "Direbear.png",
-                "Direwolf.png",
-                "Dodo.png",
-                "Doedicurus.png",
-                "Dung Beetle.png",
-                "Dunkleosteus.png",
-                "Electrophorus.png",
-                "Enforcer.png",
-                "Equus.png",
-                "Eurypterid.png",
-                "Fasolasuchus.png",
-                "Featherlight.png",
-                "Fenrir.png",
-                "Ferox.png",
-                "Fjordhawk.png",
-                "Forest Titan.png",
-                "Gacha.png",
-                "Gallimimus.png",
-                "Gasbags.png",
-                "Giant Bee.png",
-                "Giganotosaurus.png",
-                "Gigantopithecus.png",
-                "Gigantoraptor.png",
-                "Glowbug.png",
-                "Glowtail.png",
-                "Griffin.png",
-                "Hesperornis.png",
-                "Hyaenodon.png",
-                "Ice Titan.png",
-                "Ichthyornis.png",
-                "Ichthyosaurus.png",
-                "Iguanodon.png",
-                "Insect Swarm.png",
-                "Jerboa.png",
-                "Jug Bug.png",
-                "Kairuku.png",
-                "Kaprosuchus.png",
-                "Karkinos.png",
-                "Kentrosaurus.png",
-                "King Titan.png",
-                "Lamprey.png",
-                "Leech.png",
-                "Leedsichthys.png",
-                "Liopleurodon.png",
-                "Lymantria.png",
-                "Lystrosaurus.png",
-                "Maewing.png",
-                "Magmasaur.png",
-                "Mammoth.png",
-                "Managarmr.png",
-                "Manta.png",
-                "Manticore.png",
-                "Mantis.png",
-                "Megachelon.png",
-                "Megalania.png",
-                "Megaloceros.png",
-                "Megalodon.png",
-                "Megalosaurus.png",
-                "Meganeura.png",
-                "Megatherium.png",
-                "Mek.png",
-                "Mesopithecus.png",
-                "Microraptor.png",
-                "Moeder.png",
-                "Morellatops.png",
-                "Mosasaurus.png",
-                "Moschops.png",
-                "Nameless.png",
-                "Noglin.png",
-                "Onyc.png",
-                "Otter.png",
-                "Oviraptor.png",
-                "Ovis.png",
-                "Pachy.png",
-                "Pachyrhinosaurus.png",
-                "Paraceratherium.png",
-                "Parakeet Fish School.png",
-                "Parasaur.png",
-                "Pegomastax.png",
-                "Pelagornis.png",
-                "Phiomia.png",
-                "Phoenix.png",
-                "Piranha.png",
-                "Plesiosaur.png",
-                "Procoptodon.png",
-                "Pteranodon.png",
-                "Pulmonoscorpius.png",
-                "Purlovia.png",
-                "Quetzal.png",
-                "Raptor.png",
-                "Ravager.png",
-                "Reaper.png",
-                "Rex.png",
-                "Rhyniognatha.png",
-                "Rock Drake.png",
-                "Rock Elemental.png",
-                "Roll Rat.png",
-                "Sabertooth Salmon.png",
-                "Sabertooth.png",
-                "Sarco.png",
-                "Scout.png",
-                "Seeker.png",
-                "Shadowmane.png",
-                "Shinehorn.png",
-                "Sinomacrops.png",
-                "Snow Owl.png",
-                "Spinosaurus.png",
-                "Stegosaurus.png",
-                "Summoner.png",
-                "Tapejara.png",
-                "Tek Stryder.png",
-                "Terror Bird.png",
-                "Therizinosaurus.png",
-                "Thorny Dragon.png",
-                "Thylacoleo.png",
-                "Titanoboa.png",
-                "Titanomyrma.png",
-                "Titanosaur.png",
-                "Triceratops.png",
-                "Trilobite.png",
-                "Troodon.png",
-                "Tropeognathus.png",
-                "Tusoteuthis.png",
-                "Unicorn.png",
-                "Velonasaur.png",
-                "Voidwyrm.png",
-                "Vulture.png",
-                "Woolly Rhino.png",
-                "Wyvern.png",
-                "Yeti.png",
-                "Yutyrannus.png"
-            ],
+                'Achatina.png',
+                'Allosaurus.png',
+                'Amargasaurus.png',
+                'Ammonite.png',
+                'Andrewsarchus.png',
+                'Angler.png',
+                'Ankylosaurus.png',
+                'Araneo.png',
+                'Archaeopteryx.png',
+                'Argentavis.png',
+                'Arthropluera.png',
+                'Astrocetus.png',
+                'Astrodelphis.png',
+                'Attack Drone.png',
+                'Baryonyx.png',
+                'Basilisk.png',
+                'Basilosaurus.png',
+                'Beelzebufo.png',
+                'Bloodstalker.png',
+                'Brontosaurus.png',
+                'Bulbdog.png',
+                'Carbonemys.png',
+                'Carcharodontosaurus.png',
+                'Carnotaurus.png',
+                'Castoroides.png',
+                'Chalicotherium.png',
+                'Cnidaria.png',
+                'Coelacanth.png',
+                'Compy.png',
+                'Crystal Wyvern.png',
+                'Daeodon.png',
+                'Deathworm.png',
+                'Defense Unit.png',
+                'Deinonychus.png',
+                'Desert Titan.png',
+                'Desmodus.png',
+                'Dilophosaur.png',
+                'Dimetrodon.png',
+                'Dimorphodon.png',
+                'Dinopithecus.png',
+                'Diplocaulus.png',
+                'Diplodocus.png',
+                'Direbear.png',
+                'Direwolf.png',
+                'Dodo.png',
+                'Doedicurus.png',
+                'Dung Beetle.png',
+                'Dunkleosteus.png',
+                'Electrophorus.png',
+                'Enforcer.png',
+                'Equus.png',
+                'Eurypterid.png',
+                'Fasolasuchus.png',
+                'Featherlight.png',
+                'Fenrir.png',
+                'Ferox.png',
+                'Fjordhawk.png',
+                'Forest Titan.png',
+                'Gacha.png',
+                'Gallimimus.png',
+                'Gasbags.png',
+                'Giant Bee.png',
+                'Giganotosaurus.png',
+                'Gigantopithecus.png',
+                'Gigantoraptor.png',
+                'Glowbug.png',
+                'Glowtail.png',
+                'Griffin.png',
+                'Hesperornis.png',
+                'Hyaenodon.png',
+                'Ice Titan.png',
+                'Ichthyornis.png',
+                'Ichthyosaurus.png',
+                'Iguanodon.png',
+                'Insect Swarm.png',
+                'Jerboa.png',
+                'Jug Bug.png',
+                'Kairuku.png',
+                'Kaprosuchus.png',
+                'Karkinos.png',
+                'Kentrosaurus.png',
+                'King Titan.png',
+                'Lamprey.png',
+                'Leech.png',
+                'Leedsichthys.png',
+                'Liopleurodon.png',
+                'Lymantria.png',
+                'Lystrosaurus.png',
+                'Maewing.png',
+                'Magmasaur.png',
+                'Mammoth.png',
+                'Managarmr.png',
+                'Manta.png',
+                'Manticore.png',
+                'Mantis.png',
+                'Megachelon.png',
+                'Megalania.png',
+                'Megaloceros.png',
+                'Megalodon.png',
+                'Megalosaurus.png',
+                'Meganeura.png',
+                'Megatherium.png',
+                'Mek.png',
+                'Mesopithecus.png',
+                'Microraptor.png',
+                'Moeder.png',
+                'Morellatops.png',
+                'Mosasaurus.png',
+                'Moschops.png',
+                'Nameless.png',
+                'Noglin.png',
+                'Onyc.png',
+                'Otter.png',
+                'Oviraptor.png',
+                'Ovis.png',
+                'Pachy.png',
+                'Pachyrhinosaurus.png',
+                'Paraceratherium.png',
+                'Parakeet Fish School.png',
+                'Parasaur.png',
+                'Pegomastax.png',
+                'Pelagornis.png',
+                'Phiomia.png',
+                'Phoenix.png',
+                'Piranha.png',
+                'Plesiosaur.png',
+                'Procoptodon.png',
+                'Pteranodon.png',
+                'Pulmonoscorpius.png',
+                'Purlovia.png',
+                'Quetzal.png',
+                'Raptor.png',
+                'Ravager.png',
+                'Reaper.png',
+                'Rex.png',
+                'Rhyniognatha.png',
+                'Rock Drake.png',
+                'Rock Elemental.png',
+                'Roll Rat.png',
+                'Sabertooth Salmon.png',
+                'Sabertooth.png',
+                'Sarco.png',
+                'Scout.png',
+                'Seeker.png',
+                'Shadowmane.png',
+                'Shinehorn.png',
+                'Sinomacrops.png',
+                'Snow Owl.png',
+                'Spinosaurus.png',
+                'Stegosaurus.png',
+                'Summoner.png',
+                'Tapejara.png',
+                'Tek Stryder.png',
+                'Terror Bird.png',
+                'Therizinosaurus.png',
+                'Thorny Dragon.png',
+                'Thylacoleo.png',
+                'Titanoboa.png',
+                'Titanomyrma.png',
+                'Titanosaur.png',
+                'Triceratops.png',
+                'Trilobite.png',
+                'Troodon.png',
+                'Tropeognathus.png',
+                'Tusoteuthis.png',
+                'Unicorn.png',
+                'Velonasaur.png',
+                'Voidwyrm.png',
+                'Vulture.png',
+                'Woolly Rhino.png',
+                'Wyvern.png',
+                'Yeti.png',
+                'Yutyrannus.png'
+            ]
         };
     },
     computed: {
         dinoNames() {
             // Remove file extensions from image names and return them as possible answers
-            return this.dinoImages.map(image => image.replace('.png', '').replace(/_/g, ' '));
+            return this.dinoImages.map((image) => image.replace('.png', '').replace(/_/g, ' '));
         }
     },
     methods: {
@@ -209,8 +209,8 @@ export default (await import('vue')).defineComponent({
             }
             else {
                 this.filteredDinos = this.dinoNames
-                    .filter(dino => dino.toLowerCase().startsWith(input))
-                    .filter(dino => !this.guessedDinos.includes(dino));
+                    .filter((dino) => dino.toLowerCase().startsWith(input))
+                    .filter((dino) => !this.guessedDinos.includes(dino));
             }
         },
         selectDino(dino) {
@@ -220,21 +220,20 @@ export default (await import('vue')).defineComponent({
             }
         },
         saveProgress() {
-            const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
+            const today = new Date().toISOString().split('T')[0];
             const progress = {
                 date: today,
                 previousGuesses: this.previousGuesses,
                 isGuessedCorrectly: this.isGuessedCorrectly,
-                attempts: this.attempts,
+                attempts: this.attempts
             };
-            localStorage.setItem('gameProgress', JSON.stringify(progress));
+            localStorage.setItem('dinoGameProgress', JSON.stringify(progress));
         },
         loadProgress() {
-            const savedProgress = localStorage.getItem('gameProgress');
-            const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
+            const savedProgress = localStorage.getItem('dinoGameProgress');
+            const today = new Date().toISOString().split('T')[0];
             if (savedProgress) {
                 const progress = JSON.parse(savedProgress);
-                // Load saved progress if it's for today
                 if (progress.date === today) {
                     this.previousGuesses = progress.previousGuesses || [];
                     this.isGuessedCorrectly = progress.isGuessedCorrectly || false;
@@ -242,40 +241,6 @@ export default (await import('vue')).defineComponent({
                     this.hasGuessedToday = this.isGuessedCorrectly;
                 }
                 else {
-                    // Reset progress for a new day
-                    this.resetProgress();
-                }
-            }
-        },
-        resetProgress() {
-            this.previousGuesses = [];
-            this.isGuessedCorrectly = false;
-            this.hasGuessedToday = false;
-            this.attempts = 0;
-        },
-        saveProgress() {
-            const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
-            const progress = {
-                date: today,
-                previousGuesses: this.previousGuesses,
-                isGuessedCorrectly: this.isGuessedCorrectly,
-                attempts: this.attempts,
-            };
-            localStorage.setItem('dinoGameProgress', JSON.stringify(progress));
-        },
-        loadProgress() {
-            const savedProgress = localStorage.getItem('dinoGameProgress');
-            const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
-            if (savedProgress) {
-                const progress = JSON.parse(savedProgress);
-                // Load saved progress if it's for today
-                if (progress.date === today) {
-                    this.previousGuesses = progress.previousGuesses || [];
-                    this.isGuessedCorrectly = progress.isGuessedCorrectly || false;
-                    this.attempts = progress.attempts || 0;
-                }
-                else {
-                    // Reset progress for a new day
                     this.resetProgress();
                 }
             }
@@ -292,7 +257,8 @@ export default (await import('vue')).defineComponent({
                 return;
             }
             // Check if the user input is a valid dino name (either from filtered suggestions or typed manually)
-            const isValidDino = this.filteredDinos.length > 0 || this.dinoNames.some(dino => dino.toLowerCase() === cleanedInput);
+            const isValidDino = this.filteredDinos.length > 0 ||
+                this.dinoNames.some((dino) => dino.toLowerCase() === cleanedInput);
             // Prevent submitting if the input is not a valid dino name
             if (!isValidDino) {
                 return;
@@ -350,12 +316,11 @@ export default (await import('vue')).defineComponent({
         this.loadProgress(); // Load progress for the current day
     }
 });
-;
 function __VLS_template() {
     const __VLS_ctx = {};
     const __VLS_localComponents = {
         ...{
-            Layout,
+            Layout
         },
         ...{},
         ...__VLS_ctx,

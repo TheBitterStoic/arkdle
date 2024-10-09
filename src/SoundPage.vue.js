@@ -1,7 +1,7 @@
 import Layout from './Layout.vue';
 export default (await import('vue')).defineComponent({
     components: {
-        Layout,
+        Layout
     },
     data() {
         return {
@@ -15,103 +15,103 @@ export default (await import('vue')).defineComponent({
             isGuessedCorrectly: false, // Flag to disable input after correct guess
             hasGuessedToday: false, // Track if the user has already guessed today
             soundFiles: [
-                "Amargasaurussound.ogg",
-                "Ammonitessound.ogg",
-                "Ankylosaurussound.ogg",
-                "Archasound.ogg",
-                "Argentavissound.ogg",
-                "Arthropluerasound.ogg",
-                "Astrocetussound.ogg",
-                "Baryonyxsound.ogg",
-                "Basilisksound.ogg",
-                "Basilosaurussound.ogg",
-                "Beaversound.ogg",
-                "Bloodstalkersound.ogg",
-                "Brontosound.ogg",
-                "Bulbdogsound.ogg",
-                "Carbonemyssound.ogg",
-                "Carnosound.ogg",
-                "Chalicotheriumsound.ogg",
-                "Cnidariasound.ogg",
-                "Coelecanthsound.ogg",
-                "Daeodonsound.ogg",
-                "Deathwormsound.ogg",
-                "Desert_Titan_sound.ogg",
-                "Dilosound.ogg",
-                "Dimorphodonsound.ogg",
-                "Dinopithsound.ogg",
-                "Diplocaulussound.ogg",
-                "Direwolfsound.ogg",
-                "Dungbeetlesound.ogg",
-                "Electrophorussound.ogg",
-                "Featherlightsound.ogg",
-                "Feroxsound.ogg",
-                "Forest_Titan_sound.ogg",
-                "Gigantopithecussound.ogg",
-                "Gigasound.ogg",
-                "Glowbugsound.ogg",
-                "Glowtailsound.ogg",
-                "Hespererornissound.ogg",
-                "Hyaenasound.ogg",
-                "Ice_Titan_sound.ogg",
-                "Icthyornissound.ogg",
-                "Jugbugsound.ogg",
-                "Kairukusound.ogg",
-                "Karkinossound.ogg",
-                "Kentrosound.ogg",
-                "King_Titan_sound.ogg",
-                "Lampreysound.ogg",
-                "Leedsichtyssound.ogg",
-                "Lioplurodonsound.ogg",
-                "Mammothsound.ogg",
-                "Mantissound.ogg",
-                "Megalaniasound.ogg",
-                "Megalosaurussound.ogg",
-                "Megatheriumsound.ogg",
-                "Microraptorsound.ogg",
-                "Namelesssound.ogg",
-                "Ottersound.ogg",
-                "Pachysound.ogg",
-                "Paracersound.ogg",
-                "Parasaursound.ogg",
-                "Pegomastaxsound.ogg",
-                "Pelagornissound.ogg",
-                "Phoenixsound.ogg",
-                "Procoptodonsound.ogg",
-                "Pteranodonsound.ogg",
-                "Purloviasound.ogg",
-                "Quetzalsound.ogg",
-                "Raptorsound.ogg",
-                "Ravagersound.ogg",
-                "Reapersound.ogg",
-                "Rexsound.ogg",
-                "Rockdrakesound.ogg",
-                "Rockwellsound.ogg",
-                "Rollratsound.ogg",
-                "Sabersound.ogg",
-                "Salmonsound.ogg",
-                "Scorpionsound.ogg",
-                "Seekersound.ogg",
-                "Shinehornsound.ogg",
-                "Sinomasound.ogg",
-                "Spinosound.ogg",
-                "Stegosound.ogg",
-                "Tapejarasound.ogg",
-                "Therizinosound.ogg",
-                "Thylacoleosound.ogg",
-                "Titanosaursound.ogg",
-                "Troodonsound.ogg",
-                "Tropeognathussound.ogg",
-                "Tusosound.ogg",
-                "Wyvernsound.ogg",
-                "Yutyrannussound.ogg"
-            ],
+                'Amargasaurussound.ogg',
+                'Ammonitessound.ogg',
+                'Ankylosaurussound.ogg',
+                'Archasound.ogg',
+                'Argentavissound.ogg',
+                'Arthropluerasound.ogg',
+                'Astrocetussound.ogg',
+                'Baryonyxsound.ogg',
+                'Basilisksound.ogg',
+                'Basilosaurussound.ogg',
+                'Beaversound.ogg',
+                'Bloodstalkersound.ogg',
+                'Brontosound.ogg',
+                'Bulbdogsound.ogg',
+                'Carbonemyssound.ogg',
+                'Carnosound.ogg',
+                'Chalicotheriumsound.ogg',
+                'Cnidariasound.ogg',
+                'Coelecanthsound.ogg',
+                'Daeodonsound.ogg',
+                'Deathwormsound.ogg',
+                'Desert_Titan_sound.ogg',
+                'Dilosound.ogg',
+                'Dimorphodonsound.ogg',
+                'Dinopithsound.ogg',
+                'Diplocaulussound.ogg',
+                'Direwolfsound.ogg',
+                'Dungbeetlesound.ogg',
+                'Electrophorussound.ogg',
+                'Featherlightsound.ogg',
+                'Feroxsound.ogg',
+                'Forest_Titan_sound.ogg',
+                'Gigantopithecussound.ogg',
+                'Gigasound.ogg',
+                'Glowbugsound.ogg',
+                'Glowtailsound.ogg',
+                'Hespererornissound.ogg',
+                'Hyaenasound.ogg',
+                'Ice_Titan_sound.ogg',
+                'Icthyornissound.ogg',
+                'Jugbugsound.ogg',
+                'Kairukusound.ogg',
+                'Karkinossound.ogg',
+                'Kentrosound.ogg',
+                'King_Titan_sound.ogg',
+                'Lampreysound.ogg',
+                'Leedsichtyssound.ogg',
+                'Lioplurodonsound.ogg',
+                'Mammothsound.ogg',
+                'Mantissound.ogg',
+                'Megalaniasound.ogg',
+                'Megalosaurussound.ogg',
+                'Megatheriumsound.ogg',
+                'Microraptorsound.ogg',
+                'Namelesssound.ogg',
+                'Ottersound.ogg',
+                'Pachysound.ogg',
+                'Paracersound.ogg',
+                'Parasaursound.ogg',
+                'Pegomastaxsound.ogg',
+                'Pelagornissound.ogg',
+                'Phoenixsound.ogg',
+                'Procoptodonsound.ogg',
+                'Pteranodonsound.ogg',
+                'Purloviasound.ogg',
+                'Quetzalsound.ogg',
+                'Raptorsound.ogg',
+                'Ravagersound.ogg',
+                'Reapersound.ogg',
+                'Rexsound.ogg',
+                'Rockdrakesound.ogg',
+                'Rockwellsound.ogg',
+                'Rollratsound.ogg',
+                'Sabersound.ogg',
+                'Salmonsound.ogg',
+                'Scorpionsound.ogg',
+                'Seekersound.ogg',
+                'Shinehornsound.ogg',
+                'Sinomasound.ogg',
+                'Spinosound.ogg',
+                'Stegosound.ogg',
+                'Tapejarasound.ogg',
+                'Therizinosound.ogg',
+                'Thylacoleosound.ogg',
+                'Titanosaursound.ogg',
+                'Troodonsound.ogg',
+                'Tropeognathussound.ogg',
+                'Tusosound.ogg',
+                'Wyvernsound.ogg',
+                'Yutyrannussound.ogg'
+            ]
         };
     },
     computed: {
         soundNames() {
             // Remove file extensions, underscores, and the word 'sound' at the end of the sound names
-            return this.soundFiles.map(file => file
+            return this.soundFiles.map((file) => file
                 .replace('.ogg', '') // Remove .ogg extension
                 .replace(/_/g, ' ') // Replace underscores with spaces
                 .replace(/sound$/i, '') // Remove the word 'sound' at the end (case-insensitive)
@@ -126,8 +126,8 @@ export default (await import('vue')).defineComponent({
             }
             else {
                 this.filteredSounds = this.soundNames
-                    .filter(sound => sound.toLowerCase().startsWith(input))
-                    .filter(sound => !this.guessedSounds.includes(sound));
+                    .filter((sound) => sound.toLowerCase().startsWith(input))
+                    .filter((sound) => !this.guessedSounds.includes(sound));
             }
         },
         selectSound(sound) {
@@ -143,7 +143,8 @@ export default (await import('vue')).defineComponent({
                 return;
             }
             // Check if the user input is a valid sound name (either from filtered suggestions or typed manually)
-            const isValidSound = this.filteredSounds.length > 0 || this.soundNames.some(sound => sound.toLowerCase() === cleanedInput);
+            const isValidSound = this.filteredSounds.length > 0 ||
+                this.soundNames.some((sound) => sound.toLowerCase() === cleanedInput);
             // Prevent submitting if the input is not a valid sound name
             if (!isValidSound) {
                 return;
@@ -176,21 +177,20 @@ export default (await import('vue')).defineComponent({
             }
         },
         saveProgress() {
-            const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
+            const today = new Date().toISOString().split('T')[0];
             const progress = {
                 date: today,
                 previousGuesses: this.previousGuesses,
                 isGuessedCorrectly: this.isGuessedCorrectly,
-                attempts: this.attempts,
+                attempts: this.attempts
             };
-            localStorage.setItem('gameProgress', JSON.stringify(progress));
+            localStorage.setItem('soundGameProgress', JSON.stringify(progress));
         },
         loadProgress() {
-            const savedProgress = localStorage.getItem('gameProgress');
-            const today = new Date().toISOString().split('T')[0]; // Get today's date as a string
+            const savedProgress = localStorage.getItem('soundGameProgress');
+            const today = new Date().toISOString().split('T')[0];
             if (savedProgress) {
                 const progress = JSON.parse(savedProgress);
-                // Load saved progress if it's for today
                 if (progress.date === today) {
                     this.previousGuesses = progress.previousGuesses || [];
                     this.isGuessedCorrectly = progress.isGuessedCorrectly || false;
@@ -198,7 +198,6 @@ export default (await import('vue')).defineComponent({
                     this.hasGuessedToday = this.isGuessedCorrectly;
                 }
                 else {
-                    // Reset progress for a new day
                     this.resetProgress();
                 }
             }
@@ -226,12 +225,11 @@ export default (await import('vue')).defineComponent({
         this.loadProgress();
     }
 });
-;
 function __VLS_template() {
     const __VLS_ctx = {};
     const __VLS_localComponents = {
         ...{
-            Layout,
+            Layout
         },
         ...{},
         ...__VLS_ctx,
