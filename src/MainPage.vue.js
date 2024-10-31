@@ -1,15 +1,14 @@
 import Layout from './Layout.vue';
 export default (await import('vue')).defineComponent({
     components: {
-        Layout,
-    },
+        Layout
+    }
 });
-;
 function __VLS_template() {
     const __VLS_ctx = {};
     const __VLS_localComponents = {
         ...{
-            Layout,
+            Layout
         },
         ...{},
         ...__VLS_ctx,
